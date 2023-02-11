@@ -20,7 +20,7 @@ body {
   display: flex;
   width: 600px;
   height: 450px;
-  transition: box-shadow 0.5s;
+  transition: box-shadow 0.7s;
   border-radius: 20px;
 }
 .card:hover {
@@ -125,7 +125,7 @@ body {
   border-radius: 10px;
   border: none;
   background-color: #21785D;
-  z-index: 10;
+  transition: transform .4s;
 }
 .button:hover {
   cursor: pointer;
